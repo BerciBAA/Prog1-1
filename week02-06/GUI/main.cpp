@@ -53,7 +53,7 @@ int main()
 
 	Circle c {Point{700,700}, 100};
 
-	win.attach(ii);
+	//swin.attach(ii);
 	win.attach(c);
 	win.attach(t);
 	win.attach(r);
