@@ -43,19 +43,19 @@ int main()
   	win.attach(img1);
   	win.attach(img2);
 
-  	Image apple {Point{0,0}, "download.jpg"};
+  	Image PNG {Point{0,0}, "download.jpg"};
 
   	win.attach(grid);
-    win.attach(apple);
+    win.attach(PNG);
     win.wait_for_button();
     int le =0;
     for (int i = 0; i < 7; ++i) {
     	for (int i = 0; i < 7; ++i)
     	{
-    		apple.move(100, 0);
+    		PNG.move(100, 0);
     		 win.wait_for_button();
     	}
-    	  apple.move(-700, 100);
+    	  PNG.move(-700, 100);
                  
         win.wait_for_button();
     }
